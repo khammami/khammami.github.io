@@ -1,0 +1,31 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    font-family: "Courier New";
+    font-size: calc(10px + 0.33vw);
+    -webkit-font-smoothing: antialiased;
+    padding: 5vh 10vw;
+    color: #111111;
+}
+
+header{
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.icon {
+    height: 24pt;
+    width: 24pt;
+}
+.space {
+    margin-right: 4pt;
+}
